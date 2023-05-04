@@ -20,4 +20,3 @@ The SmartCalc v1.0 program implemented:
 - 
 | Operator name | Infix (classic) notation | Prefix (Polish) notation | Postrix (reverse Polish) notation |
 | ------------- |------------------|----------------------|----------------|----------------|
-| Addition    |  +   | int s21_add(s21_decimal value_1, s21_decimal value_2, s21_decimal *result) |
