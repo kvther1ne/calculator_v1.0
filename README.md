@@ -20,3 +20,12 @@ The SmartCalc v1.0 program implemented:
 - 
 | Operator name | Infix (classic) notation | Prefix (Polish) notation | Postrix (reverse Polish) notation |
 | ------------- |--------------------------|--------------------------|-----------------------------------|
+| Brackets | (a+b) | (+ a b) | a b +
+| Addition | a + b | + a b | a b +
+| Subtraction | a - b | - a b | a b -
+| Multiplication | a * b | * a b | a b *
+| Division | a / b | / a b | a b /
+| Power | a ^ b | ^ a b | a b ^
+| Modulus | a mod b | mod a b | a b mod
+| Unary plus | +a | +a | a+
+| Unary minus | -a | -a | a-
