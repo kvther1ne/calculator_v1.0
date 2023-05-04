@@ -19,4 +19,4 @@ The SmartCalc v1.0 program implemented:
 - Bracketed arithmetic expressions in infix notation must support the following arithmetic operations and mathematical functions:
 - 
 | Operator name | Infix (classic) notation | Prefix (Polish) notation | Postrix (reverse Polish) notation |
-| ------------- |------------------|----------------------|----------------|----------------|
+| ------------- |--------------------------|--------------------------|-----------------------------------|
