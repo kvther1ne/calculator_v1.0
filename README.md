@@ -17,6 +17,8 @@ The SmartCalc v1.0 program implemented:
 - Domain and codomain of a function are limited to at least numbers from -1000000 to 1000000
 - Verifiable accuracy of the fractional part is at least to 7 decimal places
 - Bracketed arithmetic expressions in infix notation must support the following arithmetic operations and mathematical functions:
+
+
 | Operator name | Infix (classic) notation | Prefix (Polish) notation | Postrix (reverse Polish) notation |
 | ------------- |--------------------------|--------------------------|-----------------------------------|
 | Brackets | (a+b) | (+ a b) | a b +
