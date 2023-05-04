@@ -17,7 +17,6 @@ The SmartCalc v1.0 program implemented:
 - Domain and codomain of a function are limited to at least numbers from -1000000 to 1000000
 - Verifiable accuracy of the fractional part is at least to 7 decimal places
 - Bracketed arithmetic expressions in infix notation must support the following arithmetic operations and mathematical functions:
-- 
 | Operator name | Infix (classic) notation | Prefix (Polish) notation | Postrix (reverse Polish) notation |
 | ------------- |--------------------------|--------------------------|-----------------------------------|
 | Brackets | (a+b) | (+ a b) | a b +
@@ -29,3 +28,16 @@ The SmartCalc v1.0 program implemented:
 | Modulus | a mod b | mod a b | a b mod
 | Unary plus | +a | +a | a+
 | Unary minus | -a | -a | a-
+
+| Function description  | Function | 
+| --------------------- |----------|
+| Computes cosinus | cos(x)
+| Computes sinus | sin(x)
+| Computes tangens | tan(x)
+| Computes arc cosinus | acos(x)
+| Computes arc sinus | asin(x)
+| Computes arc tangens | atan(x)
+| Computes square root | sqrt(x)
+| Computes natural logarithm | ln(x)
+| Computes common logarithm | log(x)
+
