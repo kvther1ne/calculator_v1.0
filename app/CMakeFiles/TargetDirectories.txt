@@ -1,0 +1,4 @@
+/Users/vinitama/Desktop/C7_SmartCalc_v1.0-0/src/app/CMakeFiles/SmartCalc.dir
+/Users/vinitama/Desktop/C7_SmartCalc_v1.0-0/src/app/CMakeFiles/edit_cache.dir
+/Users/vinitama/Desktop/C7_SmartCalc_v1.0-0/src/app/CMakeFiles/rebuild_cache.dir
+/Users/vinitama/Desktop/C7_SmartCalc_v1.0-0/src/app/CMakeFiles/SmartCalc_autogen.dir
