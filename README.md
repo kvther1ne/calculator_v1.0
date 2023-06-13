@@ -1,45 +1,44 @@
 # calculator_v1.0
 
-## Implementation of SmartCalc v1.0.
+## Реализация приложения SmartCalc v1.0.
 
-In this project I implemented an extended version of the usual calculator, which can be found in the standard applications of each operating system in the C programming language using structured programming. In addition to basic arithmetic operations such as add/subtract and multiply/divide, it can calculate arithmetic expressions by following the order, as well as some mathematical functions (sine, cosine, logarithm, etc.).
-Besides calculating expressions, it also supports the use of the x variable and the graphing of the corresponding function.
+В данном проекте я реализовала на языке программирования Си с использованием структурного подхода расширенную версию обычного калькулятора, который можно найти в стандартных приложениях каждой операционной системы. Помимо базовых арифметических операций, как плюс-минус и умножить-поделить, калькулятор дополнен возможностью вычисления арифметических выражений с учетом приоритетов, а так же некоторыми математическими функциями (синус, косинус, логарифм и т.д.). Помимо вычисления выражений калькулятор поддерживает использование переменной x и построение графика соответствующей функции.
 
-The SmartCalc v1.0 program implemented:
-- The program built with Makefile which contains standard set of targets for GNU-programs: all, install, uninstall, clean, dvi, dist, test, gcov_report
-- Prepared full coverage of modules related to calculating expressions with unit-tests using the Check library
-- GUI implementation, based on Qt
-- Both integers and real numbers with a dot can be input into the program
-- The calculation must be done after you complete entering the calculating expression and press the = symbol.
-- Calculating arbitrary bracketed arithmetic expressions in infix notation
-- Calculate arbitrary bracketed arithmetic expressions in infix notation with substitution of the value of the variable x as a number
-- Plotting a graph of a function given by an expression in infix notation with the variable x (with coordinate axes, mark of the used scale and an adaptive grid)
-- Domain and codomain of a function are limited to at least numbers from -1000000 to 1000000
-- Verifiable accuracy of the fractional part is at least to 7 decimal places
-- Bracketed arithmetic expressions in infix notation must support the following arithmetic operations and mathematical functions:
+Необходимо реализовать программу SmartCalc v1.0:
+- Сборка программы настроена с помощью Makefile со стандартным набором целей для GNU-программ: all, install, uninstall, clean, dvi, dist, tests, gcov_report
+- Обеспечено покрытие unit-тестами модулей, связанных с загрузкой моделей и аффинными преобразованиями
+- В программе реализован графический пользовательский интерфейс на базе любой GUI-библиотеки Qt
+- На вход программы могут подаваться как целые числа, так и вещественные числа, записанные через точку
+- Вычисление производится после полного ввода вычисляемого выражения и нажатия на символ =
+- Вычисление произвольных скобочных арифметических выражений в инфиксной нотации
+- Вычисление произвольных скобочных арифметических выражений в инфиксной нотации с подстановкой значения переменной x в виде числа
+- Построение графика функции, заданной с помощью выражения в инфиксной нотации с переменной x  (с координатными осями, отметкой используемого масштаба и сеткой с адаптивным шагом)
+- Область определения и область значения функций ограничиваются по крайней мере числами от -1000000 до 1000000
+- Проверяемая точность дробной части - минимум 7 знаков после запятой
+- Скобочные арифметические выражения в инфиксной нотации поддерживают следующие арифметические операции и математические функции:
 
 
-| Operator name | Infix (classic) notation | Prefix (Polish) notation | Postrix (reverse Polish) notation |
+| Название оператора | Инфиксная нотация | Префиксная нотация | Постфиксная нотация |
 | ------------- |--------------------------|--------------------------|-----------------------------------|
-| Brackets | (a+b) | (+ a b) | a b +
-| Addition | a + b | + a b | a b +
-| Subtraction | a - b | - a b | a b -
-| Multiplication | a * b | * a b | a b *
-| Division | a / b | / a b | a b /
-| Power | a ^ b | ^ a b | a b ^
-| Modulus | a mod b | mod a b | a b mod
-| Unary plus | +a | +a | a+
-| Unary minus | -a | -a | a-
+| Скобки | (a+b) | (+ a b) | a b +
+| Сложение | a + b | + a b | a b +
+| Вычитание | a - b | - a b | a b -
+| Умножение | a * b | * a b | a b *
+| Деление | a / b | / a b | a b /
+| Возведение в степень | a ^ b | ^ a b | a b ^
+| Остаток от деления | a mod b | mod a b | a b mod
+| Унарный плюс | +a | +a | a+
+| Унарный минус | -a | -a | a-
 
-| Function description  | Function | 
+| Описание функции  | Функция | 
 | --------------------- |----------|
-| Computes cosinus | cos(x)
-| Computes sinus | sin(x)
-| Computes tangens | tan(x)
-| Computes arc cosinus | acos(x)
-| Computes arc sinus | asin(x)
-| Computes arc tangens | atan(x)
-| Computes square root | sqrt(x)
-| Computes natural logarithm | ln(x)
-| Computes common logarithm | log(x)
+| Вычисляет косинус | cos(x)
+| Вычисляет синус | sin(x)
+| Вычисляет тангенс | tan(x)
+| Вычисляет арккосинус | acos(x)
+| Вычисляет арксинус | asin(x)
+| Вычисляет арктангенс | atan(x)
+| Вычисляет квадратный корень | sqrt(x)
+| Вычисляет натуральный логарифм | ln(x)
+| Вычисляет десятичный логарифм | log(x)
 
